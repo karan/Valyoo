@@ -155,10 +155,10 @@ if __name__ == '__main__':
     print 'All data parsed, preparing to write to DB...'
 
     db = MySQLdb.connect(host="192.168.1.22", # your host
-                         port=5123, # port of the connection
-                         user="amit", # your username
-                          passwd="amit", # your password
-                          db="inventory") # name of the data base
+                         port=, # port of the connection
+                         user="", # your username
+                          passwd="", # your password
+                          db="") # name of the data base
 
     print 'Connection to database established...'
     # you must create a Cursor object. It will let
